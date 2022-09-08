@@ -1,9 +1,11 @@
 import json
 
-map = json.loads("map.json")
+with open("map.json", "r") as f:
+    map_data = json.load(f)
 
-assert "CCG_exclusions" in map.keys()
-assert "clinic_CCGs" in map.keys()
+assert isinstance(map_data, dict)
+assert "CCG_exclusions" in map_data.keys()
+assert "clinic_CCGs" in map_data.keys()
 
-for _, v in map["clinic_CCGs"].items():
-  assert v in map["CCG_exclusions"]
+for _, v in map_data["clinic_CCGs"].items():
+    assert v in map_data["CCG_exclusions"]

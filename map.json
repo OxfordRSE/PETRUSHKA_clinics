@@ -2,16 +2,16 @@
   "CCG_exclusions": {
     "ccg_1_name": [ 
       "med_agomelatine",
-      "med_amitriptyline",
+      "med_amitriptyline"
     ],
     "ccg_2_name": [
       "med_citalopram",
-      "med_duloxetine",
-    ],
+      "med_duloxetine"
+    ]
   },
   "clinic_CCGs": {
     "MIL": "ccg_1_name",
     "MOR": "ccg_1_name",
-    "TUS": "ccg_2_name",
-  },
+    "TUS": "ccg_2_name"
+  }
 }
