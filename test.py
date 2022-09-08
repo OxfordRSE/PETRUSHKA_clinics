@@ -9,3 +9,5 @@ assert "clinic_CCGs" in map_data.keys()
 
 for _, v in map_data["clinic_CCGs"].items():
     assert v in map_data["CCG_exclusions"]
+
+print("map.json passed all checks")
