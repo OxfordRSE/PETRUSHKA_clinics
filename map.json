@@ -1,0 +1,34 @@
+{
+  "CCG_exclusions": {
+    "bob": [ 
+      "med_agomelatine",
+      "med_amitriptyline",
+      "med_bupropion"
+    ], 
+    "liverpool": [ 
+      "med_agomelatine",
+      "med_amitriptyline"
+    ],
+    "south west coast": [
+    ],
+    "nottinghamshire and nottingham": [
+      "med_amitriptyline"
+    ]
+  },
+  "clinic_CCGs": {
+    "GRO": "bob",
+    "WHO": "bob",
+    "WOC": "bob",
+    "BOA": "bob",
+    "HAL": "bob",
+    "HIL": "bob",
+    "MAN": "bob",
+    "WHI": "bob",
+    "SIR": "bob",
+    "CHU": "bob",
+    "EYN": "bob",
+    "BIC": "bob",
+    "ERI": "liverpool",
+    "TUS": "nottinghamshire and nottingham"
+  }
+}
