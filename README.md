@@ -13,14 +13,10 @@ The purpose of this map is to clarify which antidepressants must be excluded fro
 
 The `map.json` file maps clinics to CCG antidepressant exclusion lists.
 
-Each clinic a patient can belong to is assigned an identifier. 
-These are the keys in the `clinic_CCGs` part of the file. 
-The values for each key are the CCG names.
+It consists of a list of CCG objects, 
+each CCG having a list of excluded drugs and a list of clinics that belong to it. 
 
-Each CCG has a list of antidepressants that are excluded for use in that clinic.
-The CCG name is the key in the `CCG_exclusions` part of the file.
-The value is always a list (specified with `[]`) which includes **zero or more** drug names as listed in the `petrushka_backend.__init__.py` file. 
-They typically have the form `med_drugname`.
+Clinics are always objects with a name and a (3-letter, capitalised) code.
 
 **Even if a CCG does not require any antidepressants to be excluded, they must have an entry in `map.json`.** 
 See `ccg_3_name` for an example of a CCG that does not require any antidepressants to be excluded.
@@ -36,29 +32,39 @@ Here is what the file would look like if we had the following structure:
 | `ccg_3_name`  | `NOP`, `QRS`        | *None*  |
 
 ```json5
-{
-  "CCG_exclusions": {
-    "ccg_1_name": [ 
+[
+  {
+    "name": "ccg_1_name",
+    "clinics": [
+      { "name": "ABC", "code": "ABC" },
+      { "name":  "Clinic 2", "code":  "DEF" },
+      { "name":  "Another clinic", "code":  "HIJ" }
+    ],
+    "excluded_drugs": [
       "med_agomelatine",
       "med_amitriptyline",
-      "med_citalopram",
+      "med_citalopram"
+    ]
+  },
+  {
+    "name": "ccg_2_name",
+    "clinics": [
+      { "name": "", "code": "KLM" }
     ],
-    "ccg_2_name": [
+    "excluded_drugs": [
       "med_agomelatine",
-      "med_duloxetine",
-    ],
-    "ccg_3_name": [
-    ],
+      "med_duloxetine"
+    ]
   },
-  "clinic_CCGs": {
-    "ABC": "ccg_1_name",
-    "DEF": "ccg_1_name",
-    "HIJ": "ccg_1_name",
-    "KLM": "ccg_2_name",
-    "NOP": "ccg_3_name",
-    "QRS": "ccg_3_name",
-  },
-}
+  {
+    "name": "ccg_3_name",
+    "clinics": [
+      { "name": "North Nowhere", "code": "NOP" },
+      { "name": "Queensbury", "code": "QRS" }
+    ],
+    "excluded_drugs": []
+  }
+]
 ```
 
 ### Checking
@@ -66,4 +72,3 @@ Here is what the file would look like if we had the following structure:
 Whenever `map.json` is updated, a script will run on GitHub Actions that checks whether it all makes sense.
 If this goes wrong, the badge at the top of this README file will go red.
 If that happens, get help immediately, because PETRUSHKA will not work without a proper version of this file hosted on GitHub.
-

@@ -1,17 +1,163 @@
-{
-  "CCG_exclusions": {
-    "ccg_1_name": [ 
+[
+  {
+    "name": "Buckinghamshire, Oxfordshire and Berkshire West ICB",
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_amitriptyline",
+      "med_bupropion"
+    ],
+    "clinics": [
+      {
+        "name": "Berrysfield Medical Centre",
+        "code": "BER"
+      },
+      {
+        "name": "Bicester",
+        "code": "BIC"
+      },
+      {
+        "name": "The Boathouse Practice",
+        "code": "BOA"
+      },
+      {
+        "name": "Church Street",
+        "code": "CHU"
+      },
+      {
+        "name": "Eynsham Practice",
+        "code": "EYN"
+      },
+      {
+        "name": "Gosford Hill",
+        "code": "GOS"
+      },
+      {
+        "name": "The Hall Practice",
+        "code": "HAL"
+      },
+      {
+        "name": "Hilltop Surgery",
+        "code": "HIL"
+      },
+      {
+        "name": "Manor Surgery",
+        "code": "MAN"
+      },
+      {
+        "name": "Shreeji Medical Centre",
+        "code": "SHR"
+      },
+      {
+        "name": "St Bartholomew's Medical Centre",
+        "code": "STB"
+      },
+      {
+        "name": "Whitehorse Medical Centre",
+        "code": "WHI"
+      },
+      {
+        "name": "Woodley Practice",
+        "code": "WOO"
+      }
+    ]
+  },
+  {
+    "name": "NHS Cheshire and Merseyside ICB",
+    "excluded_drugs": [
       "med_agomelatine",
       "med_amitriptyline"
     ],
-    "ccg_2_name": [
-      "med_citalopram",
-      "med_duloxetine"
+    "clinics": [
+      {
+        "name": "Haydock Medical Centre",
+        "code": "HAY"
+      }
     ]
   },
-  "clinic_CCGs": {
-    "MIL": "ccg_1_name",
-    "MOR": "ccg_1_name",
-    "TUS": "ccg_2_name"
+  {
+    "name": "NHS Cornwall and Isles of Scilly ICB",
+    "excluded_drugs": [],
+    "clinics": [
+      {
+        "name": "Atlantic Medical Group",
+        "code": "ATL"
+      },
+      {
+        "name": "Oak Tree Surgery",
+        "code": "OAK"
+      },
+      {
+        "name": "Tavyside Surgery",
+        "code": "TAV"
+      }
+    ]
+  },
+  {
+    "name": "NHS Devon ICB",
+    "excluded_drugs": [],
+    "clinics": [
+      {
+        "name": "Ashburton Surgery",
+        "code": "ASH"
+      },
+      {
+        "name": "Brunel Medical Practice",
+        "code": "BRU"
+      },
+      {
+        "name": "Honiton Surgery",
+        "code": "HON"
+      },
+      {
+        "name": "Pathfields Medical Group",
+        "code": "PAT"
+      }
+    ]
+  },
+  {
+    "name": "NHS Greater Manchester Integrated Care Board",
+    "excluded_drugs": [],
+    "clinics": []
+  },
+  {
+    "name": "NHS Humber and North Yorkshire Integrated Care Board",
+    "excluded_drugs": [],
+    "clinics": []
+  },
+  {
+    "name": "NHS Lancashire and South Cumbria ICB",
+    "excluded_drugs": [],
+    "clinics": [
+      {
+        "name": "Darwen Healthcare",
+        "code": "DAR"
+      },
+      {
+        "name": "Fishergate Hill Surgery",
+        "code": "FIS"
+      }
+    ]
+  },
+  {
+    "name": "NHS West Yorkshire Integrated Care Board",
+    "excluded_drugs": [],
+    "clinics": []
+  },
+  {
+    "name": "Nottingham and Nottinghamshire ICB",
+    "excluded_drugs": [
+      "med_amitriptyline"
+    ],
+    "clinics": [
+      {
+        "name": "TUS",
+        "code": "TUS"
+      }
+    ]
+  },
+  {
+    "name": "South West Coast",
+    "excluded_drugs": [],
+    "clinics": []
   }
-}
+]
