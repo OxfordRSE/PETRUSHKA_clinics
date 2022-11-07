@@ -53,10 +53,6 @@
         "code": "STB"
       },
       {
-        "name": "Test practice",
-        "code": "TST"
-      },
-      {
         "name": "Whitehorse Medical Centre",
         "code": "WHI"
       },
@@ -173,5 +169,16 @@
     "code": "SWC",
     "excluded_drugs": [],
     "clinics": []
+  },
+  {
+    "name": "Test ICB",
+    "code": "TST",
+    "excluded_drugs": [],
+    "clinics": [
+      {
+        "name": "Test clinic",
+        "code": "TST"
+      }
+    ]
   }
 ]
