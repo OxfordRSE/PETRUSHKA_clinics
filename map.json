@@ -172,7 +172,7 @@
   },
   {
     "name": "Test ICB",
-    "code": "TTT",
+    "code": "TST",
     "excluded_drugs": [],
     "clinics": [
       {
