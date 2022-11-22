@@ -1,6 +1,6 @@
 [
   {
-    "name": "Buckinghamshire, Oxfordshire and Berkshire West ICB",
+    "name": "NHS Buckinghamshire, Oxfordshire and Berkshire West Integrated Care Board",
     "code": "BOB",
     "excluded_drugs": [
       "med_agomelatine",
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "name": "NHS Cheshire and Merseyside ICB",
+    "name": "NHS Cheshire and Merseyside Integrated Care Board",
     "code": "CHM",
     "excluded_drugs": [
       "med_agomelatine",
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "name": "NHS Cornwall and Isles of Scilly ICB",
+    "name": "NHS Cornwall and the Isles of Scilly Integrated Care Board",
     "code": "CIS",
     "excluded_drugs": [],
     "clinics": [
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "name": "NHS Devon ICB",
+    "name": "NHS Devon Integrated Care Board",
     "code": "DEV",
     "excluded_drugs": [],
     "clinics": [
@@ -131,7 +131,7 @@
     "clinics": []
   },
   {
-    "name": "NHS Lancashire and South Cumbria ICB",
+    "name": "NHS Lancashire and South Cumbria Integrated Care Board",
     "code": "LSC",
     "excluded_drugs": [],
     "clinics": [
@@ -146,13 +146,7 @@
     ]
   },
   {
-    "name": "NHS West Yorkshire Integrated Care Board",
-    "code": "WEY",
-    "excluded_drugs": [],
-    "clinics": []
-  },
-  {
-    "name": "Nottingham and Nottinghamshire ICB",
+    "name": "NHS Nottingham and Nottinghamshire Integrated Care Board",
     "code": "NON",
     "excluded_drugs": [
       "med_amitriptyline"
@@ -165,8 +159,8 @@
     ]
   },
   {
-    "name": "South West Coast",
-    "code": "SWC",
+    "name": "NHS West Yorkshire Integrated Care Board",
+    "code": "WEY",
     "excluded_drugs": [],
     "clinics": []
   },
