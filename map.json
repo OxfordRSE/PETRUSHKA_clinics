@@ -167,7 +167,9 @@
   {
     "name": "Test ICB",
     "code": "TST",
-    "excluded_drugs": [],
+    "excluded_drugs": [
+      "med_amitriptyline"
+    ],
     "clinics": [
       {
         "name": "Test clinic",
