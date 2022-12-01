@@ -146,6 +146,15 @@
     ]
   },
   {
+    "name": "NHS North East and North Cumbria Integrated Care Board",
+    "code": "NNC",
+    "excluded_drugs": [
+      "med_escitalopram",
+      "med_fluvoxamine"
+    ],
+    "clinics": []
+  },
+  {
     "name": "NHS Nottingham and Nottinghamshire Integrated Care Board",
     "code": "NON",
     "excluded_drugs": [
