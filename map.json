@@ -67,7 +67,8 @@
     "code": "CHM",
     "excluded_drugs": [
       "med_agomelatine",
-      "med_amitriptyline"
+      "med_bupropion",
+      "med_fluvoxamine"
     ],
     "clinics": [
       {
