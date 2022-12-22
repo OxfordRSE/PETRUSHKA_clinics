@@ -134,7 +134,11 @@
   {
     "name": "NHS Lancashire and South Cumbria Integrated Care Board",
     "code": "LSC",
-    "excluded_drugs": [],
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_bupropion",
+      "med_fluvoxamine"
+    ],
     "clinics": [
       {
         "name": "Darwen Healthcare",
@@ -143,6 +147,10 @@
       {
         "name": "Fishergate Hill Surgery",
         "code": "FIS"
+      },
+      {
+        "name": "Pendle View Medical Centre",
+        "code": "PEV"
       }
     ]
   },
