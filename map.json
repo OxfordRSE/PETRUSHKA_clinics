@@ -41,8 +41,16 @@
         "code": "HIL"
       },
       {
+        "name": "Ivers Practice",
+        "code": "IVP"
+      },
+      {
         "name": "Manor Surgery",
         "code": "MAN"
+      },
+      {
+        "name": "Montgomery House",
+        "code": "MGH"
       },
       {
         "name": "Shreeji Medical Centre",
@@ -51,6 +59,10 @@
       {
         "name": "St Bartholomew's Medical Centre",
         "code": "STB"
+      },
+      {
+        "name": "Summertown",
+        "code": "SUM"
       },
       {
         "name": "Whitehorse Medical Centre",
@@ -173,6 +185,10 @@
       {
         "name": "TUS",
         "code": "TUS"
+      },
+      {
+        "name": "Cripps Health Centre",
+        "code": "CHC"
       }
     ]
   },
