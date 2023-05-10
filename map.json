@@ -86,6 +86,10 @@
       {
         "name": "Haydock Medical Centre",
         "code": "HAY"
+      },
+      {
+        "name": "St George's Medical Centre",
+        "code": "SGM"
       }
     ]
   },
@@ -132,12 +136,31 @@
     ]
   },
   {
+    "name": "NHS Dorset Integrated Care Board",
+    "code": "DOR",
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_bupropion",
+      "med_fluvoxamine"
+    ],
+    "clinics": []
+  },{
     "name": "NHS Greater Manchester Integrated Care Board",
     "code": "GRM",
     "excluded_drugs": [],
     "clinics": []
   },
   {
+    "name": "NHS Hampshire and Isle of Wight Integrated Care Board",
+    "code": "HIW",
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_amitriptyline",
+      "med_bupropion",
+      "med_fluvoxamine"
+    ],
+    "clinics": []
+  },{
     "name": "NHS Humber and North Yorkshire Integrated Care Board",
     "code": "HNY",
     "excluded_drugs": [],
@@ -163,6 +186,10 @@
       {
         "name": "Pendle View Medical Centre",
         "code": "PEV"
+      },
+      {
+        "name": "Queen Square Medical Centre",
+        "code": "QSM"
       }
     ]
   },
@@ -173,7 +200,16 @@
       "med_escitalopram",
       "med_fluvoxamine"
     ],
-    "clinics": []
+    "clinics": [
+      {
+        "name": "Alnwick Medical Group",
+        "code": "AMG"
+      },
+      {
+        "name": "The Haven Surgery",
+        "code": "THS"
+      }
+    ]
   },
   {
     "name": "NHS Nottingham and Nottinghamshire Integrated Care Board",
