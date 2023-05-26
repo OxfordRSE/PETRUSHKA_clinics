@@ -143,8 +143,14 @@
       "med_bupropion",
       "med_fluvoxamine"
     ],
-    "clinics": []
-  },{
+    "clinics": [
+      {
+        "name": "Wareham Surgery",
+        "code": "WAR"
+      }
+    ]
+  },
+  {
     "name": "NHS Greater Manchester Integrated Care Board",
     "code": "GRM",
     "excluded_drugs": [],
