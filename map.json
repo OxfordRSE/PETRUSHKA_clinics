@@ -200,6 +200,15 @@
     ]
   },
   {
+    "name": "NHS Mid and South Essex Integrated Care Board",
+    "code": "MSE",
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_escitalopram"
+    ],
+    "clinics": []
+  },
+  {
     "name": "NHS North East and North Cumbria Integrated Care Board",
     "code": "NNC",
     "excluded_drugs": [
