@@ -227,6 +227,16 @@
     ]
   },
   {
+    "name": "NHS North West London Integrated Care Board",
+    "code": "NWL",
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_bupropion",
+      "med_fluvoxamine"
+    ],
+    "clinics": []
+  },
+  {
     "name": "NHS Nottingham and Nottinghamshire Integrated Care Board",
     "code": "NON",
     "excluded_drugs": [
