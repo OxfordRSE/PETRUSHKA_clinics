@@ -1,5 +1,16 @@
 [
   {
+    "name": "NHS Bath Integrated Care Board",
+    "code": "BSW",
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_bupropion",
+      "med_fluvoxamine",
+      "med_vortioxetine"
+    ],
+    "clinics": []
+  },
+  {
     "name": "NHS Buckinghamshire, Oxfordshire and Berkshire West Integrated Care Board",
     "code": "BOB",
     "excluded_drugs": [
@@ -166,7 +177,8 @@
       "med_fluvoxamine"
     ],
     "clinics": []
-  },{
+  },
+  {
     "name": "NHS Humber and North Yorkshire Integrated Care Board",
     "code": "HNY",
     "excluded_drugs": [],
