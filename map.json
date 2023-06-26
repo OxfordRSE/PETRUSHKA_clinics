@@ -1,6 +1,6 @@
 [
   {
-    "name": "NHS Bath Integrated Care Board",
+    "name": "NHS Banes, Swindon and Wiltshire Integrated Care Board",
     "code": "BSW",
     "excluded_drugs": [
       "med_agomelatine",
@@ -122,6 +122,15 @@
         "code": "TAV"
       }
     ]
+  },
+  {
+    "name": "NHS Derby and Derbyshire Integrated Care Board",
+    "code": "DAD",
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_fluvoxamine"
+    ],
+    "clinics": []
   },
   {
     "name": "NHS Devon Integrated Care Board",
