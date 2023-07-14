@@ -1,5 +1,14 @@
 [
   {
+    "name": "Cwm Taf Morgannwg University Health Board",
+    "code": "CTM",
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_fluvoxamine"
+    ],
+    "clinics": []
+  },
+  {
     "name": "NHS Banes, Swindon and Wiltshire Integrated Care Board",
     "code": "BSW",
     "excluded_drugs": [
