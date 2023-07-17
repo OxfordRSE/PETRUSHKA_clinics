@@ -41,6 +41,10 @@
         "code": "BOA"
       },
       {
+        "name": "Charlbury Medical Centre",
+        "code": "CHA"
+      },
+      {
         "name": "Church Street",
         "code": "CHU"
       },
@@ -194,7 +198,20 @@
       "med_bupropion",
       "med_fluvoxamine"
     ],
-    "clinics": []
+    "clinics": [
+      {
+        "name": "Chawton Park Surgery",
+        "code": "CPS"
+      },
+      {
+        "name": "Living Well Partnership",
+        "code": "LWP"
+      },
+      {
+        "name": "University Health Service",
+        "code": "UHS"
+      }
+    ]
   },
   {
     "name": "NHS Humber and North Yorkshire Integrated Care Board",
@@ -236,7 +253,16 @@
       "med_agomelatine",
       "med_escitalopram"
     ],
-    "clinics": []
+    "clinics": [
+      {
+        "name": "Derry Court Medical Practice",
+        "code": "DCM"
+      },
+      {
+        "name": "Kent Elms Health Centre",
+        "code": "KEH"
+      }
+    ]
   },
   {
     "name": "NHS North East and North Cumbria Integrated Care Board",
