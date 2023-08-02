@@ -1,5 +1,16 @@
 [
   {
+    "name": "Canada",
+    "code": "CAN",
+    "excluded_drugs": [],
+    "clinics": [
+      {
+        "name": "Toronto CAMH",
+        "code": "TOR"
+      }
+    ]
+  },
+  {
     "name": "Cwm Taf Morgannwg University Health Board",
     "code": "CTM",
     "excluded_drugs": [
