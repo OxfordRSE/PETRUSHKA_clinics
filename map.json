@@ -2,7 +2,9 @@
   {
     "name": "Canada",
     "code": "CAN",
-    "excluded_drugs": [],
+    "excluded_drugs": [
+      "med_agomelatine"
+    ],
     "clinics": [
       {
         "name": "Toronto CAMH",
