@@ -30,7 +30,20 @@
       "med_fluvoxamine",
       "med_vortioxetine"
     ],
-    "clinics": []
+    "clinics": [
+      {
+        "name": "Heart of Bath Medical Partnership",
+        "code": "HOB"
+      },
+      {
+        "name": "Hathaway Medical Centre",
+        "code": "HAT"
+      },
+      {
+        "name": "Elm Tree Surgery",
+        "code": "ETS"
+      }
+    ]
   },
   {
     "name": "NHS Buckinghamshire, Oxfordshire and Berkshire West Integrated Care Board",
@@ -195,6 +208,10 @@
     ],
     "clinics": [
       {
+        "name": "Swanage Medical Centre",
+        "code": "SMC"
+      },
+      {
         "name": "Wareham Surgery",
         "code": "WAR"
       }
@@ -203,8 +220,29 @@
   {
     "name": "NHS Greater Manchester Integrated Care Board",
     "code": "GRM",
-    "excluded_drugs": [],
-    "clinics": []
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_bupropion",
+      "med_fluvoxamine"
+    ],
+    "clinics": [
+      {
+        "name": "Borchardt Medical Centre",
+        "code": "BMC"
+      },
+      {
+        "name": "Bowland Medical Practice",
+        "code": "BOW"
+      },
+      {
+        "name": "Peterloo Medical Centre",
+        "code": "PMC"
+      },
+      {
+        "name": "Primrose Surgery",
+        "code": "PRS"
+      }
+    ]
   },
   {
     "name": "NHS Hampshire and Isle of Wight Integrated Care Board",
@@ -217,12 +255,24 @@
     ],
     "clinics": [
       {
+        "name": "Arnewood Surgery",
+        "code": "ARN"
+      },
+      {
+        "name": "Barton Surgery",
+        "code": "BAR"
+      },
+      {
         "name": "Chawton Park Surgery",
         "code": "CPS"
       },
       {
         "name": "Living Well Partnership",
         "code": "LWP"
+      },
+      {
+        "name": "New Milton Health Centre",
+        "code": "NMH"
       },
       {
         "name": "University Health Service",
@@ -323,6 +373,37 @@
       {
         "name": "Cripps Health Centre",
         "code": "CHC"
+      }
+    ]
+  },
+  {
+    "name": "NHS Northamptonshire Integrated Care Board",
+    "code": "NOR",
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_bupropion",
+      "med_fluvoxamine",
+      "med_vortioxetine"
+    ],
+    "clinics": [
+      {
+        "name": "Langham Place Surgery",
+        "code": "LPS"
+      }
+    ]
+  },
+  {
+    "name": "NHS Sussex Integrated Care Board",
+    "code": "SUS",
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_amitriptyline",
+      "med_bupropion"
+    ],
+    "clinics": [
+      {
+        "name": "Brow Medical Practice",
+        "code": "BRO"
       }
     ]
   },
