@@ -255,6 +255,10 @@
     ],
     "clinics": [
       {
+        "name": "Andover Health Centre",
+        "code": "AHC"
+      },
+      {
         "name": "Arnewood Surgery",
         "code": "ARN"
       },
