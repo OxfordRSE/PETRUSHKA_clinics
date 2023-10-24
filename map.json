@@ -19,7 +19,12 @@
       "med_agomelatine",
       "med_fluvoxamine"
     ],
-    "clinics": []
+    "clinics": [
+      {
+        "name": "St Andrews Surgery",
+        "code": "SAS"
+      }
+    ]
   },
   {
     "name": "NHS Banes, Swindon and Wiltshire Integrated Care Board",
@@ -138,8 +143,20 @@
     ],
     "clinics": [
       {
+        "name": "Cumberland House Surgery",
+        "code": "CHO"
+      },
+      {
         "name": "Haydock Medical Centre",
         "code": "HAY"
+      },
+      {
+        "name": "Knutsford Medical Partnership",
+        "code": "KMP"
+      },
+      {
+        "name": "Middlewood Partnership",
+        "code": "MIP"
       },
       {
         "name": "St George's Medical Centre",
@@ -216,6 +233,16 @@
         "code": "WAR"
       }
     ]
+  },
+  {
+    "name": "NHS Frimley Health and Care Integrated Care Board",
+    "code": "FHC",
+    "excluded_drugs": [
+      "med_agomelatine",
+      "med_bupropion",
+      "med_vortioxetine"
+    ],
+    "clinics": []
   },
   {
     "name": "NHS Greater Manchester Integrated Care Board",
@@ -318,6 +345,17 @@
     ]
   },
   {
+    "name": "NHS Leicester Leicestershire and Rutland Integrated Care Board",
+    "code": "LLR",
+    "excluded_drugs": [],
+    "clinics": [
+      {
+        "name": "Charnwood Surgery",
+        "code": "CSU"
+      }
+    ]
+  },
+  {
     "name": "NHS Mid and South Essex Integrated Care Board",
     "code": "MSE",
     "excluded_drugs": [
@@ -361,7 +399,28 @@
       "med_bupropion",
       "med_fluvoxamine"
     ],
-    "clinics": []
+    "clinics": [
+      {
+        "name": "Belmont Health Centre",
+        "code": "BHC"
+      },
+      {
+        "name": "Cuckoo Lane Practice",
+        "code": "CLP"
+      },
+      {
+        "name": "Freuchen Medical Centre",
+        "code": "FMC"
+      },
+      {
+        "name": "Preston Hill Surgery",
+        "code": "PHS"
+      },
+      {
+        "name": "Wembley Park Drive Medical Centre",
+        "code": "WPD"
+      }
+    ]
   },
   {
     "name": "NHS Nottingham and Nottinghamshire Integrated Care Board",
@@ -377,6 +436,14 @@
       {
         "name": "Cripps Health Centre",
         "code": "CHC"
+      },
+      {
+        "name": "Elmswood Surgery",
+        "code": "ELS"
+      },
+      {
+        "name": "Forest Medical",
+        "code": "FOM"
       }
     ]
   },
