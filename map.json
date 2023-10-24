@@ -347,7 +347,11 @@
   {
     "name": "NHS Leicester Leicestershire and Rutland Integrated Care Board",
     "code": "LLR",
-    "excluded_drugs": [],
+    "excluded_drugs": [
+      "med_amitriptyline",
+      "med_bupropion",
+      "med_imipramine"
+    ],
     "clinics": [
       {
         "name": "Charnwood Surgery",
