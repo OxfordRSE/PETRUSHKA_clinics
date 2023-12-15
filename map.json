@@ -500,5 +500,26 @@
         "code": "TST"
       }
     ]
+  },
+  {
+    "name": "Brazil",
+    "code": "BRA",
+    "excluded_drugs": [
+      "med_agomelatine"
+    ],
+    "clinics": [
+      {
+        "name": "Londrina Site A",
+        "code": "LOA"
+      },
+      {
+        "name": "Londrina Site B",
+        "code": "LOB"
+      },
+      {
+        "name": "Londrina Test Site",
+        "code": "LOT"
+      }
+    ]
   }
 ]
