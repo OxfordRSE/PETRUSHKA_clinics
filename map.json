@@ -242,7 +242,12 @@
       "med_bupropion",
       "med_vortioxetine"
     ],
-    "clinics": []
+    "clinics": [
+      {
+        "name": "Camberley",
+        "code": "CAM"
+      }
+    ]
   },
   {
     "name": "NHS Greater Manchester Integrated Care Board",
