@@ -514,12 +514,12 @@
     ],
     "clinics": [
       {
-        "name": "Londrina Site A",
-        "code": "LOA"
+        "name": "PUCPR Medical School",
+        "code": "PMS"
       },
       {
-        "name": "Londrina Site B",
-        "code": "LOB"
+        "name": "State University of Londrina",
+        "code": "SUL"
       },
       {
         "name": "Londrina Test Site",
