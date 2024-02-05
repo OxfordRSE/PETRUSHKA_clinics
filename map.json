@@ -47,6 +47,22 @@
       {
         "name": "Elm Tree Surgery",
         "code": "ETS"
+      },
+      {
+        "name": "Southbroom Surgery",
+        "code": "SBS"
+      },
+      {
+        "name": "Pioneer Medical Group",
+        "code": "PMG"
+      },
+      {
+        "name": "Clevedon Medical Centre",
+        "code": "CMC"
+      },
+      {
+        "name": "Phoenix Health Group",
+        "code": "PHG"
       }
     ]
   },
@@ -212,6 +228,10 @@
       {
         "name": "Pathfields Medical Group",
         "code": "PAT"
+      },
+      {
+        "name": "Staffa Health",
+        "code": "STH"
       }
     ]
   },
@@ -361,6 +381,10 @@
       {
         "name": "Charnwood Surgery",
         "code": "CSU"
+      },
+      {
+        "name": "Pinfold Medical Practice",
+        "code": "PMP"
       }
     ]
   },
