@@ -3,7 +3,7 @@
 [![Check map](https://github.com/OxfordRSE/PETRUSHKA_clinics/actions/workflows/check-map.yml/badge.svg)](https://github.com/OxfordRSE/PETRUSHKA_clinics/actions/workflows/check-map.yml)
 
 
-Mapping clinics to CCG drug exclusion guidelines
+This repository contains mapping of clinics to CCG/ICB drug exclusion guidelines.
 
 The PETRUSHKA tool is used by clinics operating under the auspices of different CCGs. 
 Different CCGs have different rules governing which antidepressants may be prescribed. 
