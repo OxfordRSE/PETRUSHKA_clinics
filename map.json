@@ -447,12 +447,20 @@
         "code": "BHC"
       },
       {
+        "name": "Church End Medical Centre",
+        "code": "CEM"
+      },
+      {
         "name": "Cuckoo Lane Practice",
         "code": "CLP"
       },
       {
         "name": "Freuchen Medical Centre",
         "code": "FMC"
+      },
+      {
+        "name": "Kings College Health Centre",
+        "code": "KCH"
       },
       {
         "name": "Preston Hill Surgery",
@@ -474,6 +482,10 @@
       {
         "name": "TUS",
         "code": "TUS"
+      },
+      {
+        "name": "Beechdale Surgery",
+        "code": "BEE"
       },
       {
         "name": "Cripps Health Centre",
