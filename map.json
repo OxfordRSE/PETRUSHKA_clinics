@@ -120,6 +120,10 @@
         "code": "IVP"
       },
       {
+        "name": "Long Barn Lane Surgery",
+        "code": "LBL"
+      },
+      {
         "name": "Manor Surgery",
         "code": "MAN"
       },
@@ -146,6 +150,10 @@
       {
         "name": "Whitehorse Medical Centre",
         "code": "WHI"
+      },
+      {
+        "name": "Woodlands Medical Centre",
+        "code": "WMC"
       },
       {
         "name": "Woodley Practice",
@@ -490,6 +498,10 @@
       {
         "name": "Cripps Health Centre",
         "code": "CHC"
+      },
+      {
+        "name": "Derby Road Health Centre",
+        "code": "DRH"
       },
       {
         "name": "Elmswood Surgery",
