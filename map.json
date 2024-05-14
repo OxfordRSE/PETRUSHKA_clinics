@@ -80,6 +80,10 @@
     ],
     "clinics": [
       {
+        "name": "Banbury Cross Health Centre",
+        "code": "BCH"
+      },
+      {
         "name": "Berrysfield Medical Centre",
         "code": "BER"
       },
